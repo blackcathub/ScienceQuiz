@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cat.black.sciencequiz.LauncherScreen"
+    android:id="@+id/activity_launcher_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint_cream">
+
+    <LinearLayout
+        android:id="@+id/loading_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/material_margin"
+        android:orientation="vertical">
+
+        <ImageView
+            android:src="@drawable/load_screen"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"/>
+
+        <EditText
+            android:id="@+id/enter_name"
+            android:hint="@string/tip_enter_name"
+            android:textColor="@color/pine_tree"
+            android:textColorHint="@color/lucid_pine_tree"
+            android:textSize="@dimen/textfield_fontsize"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="64dp"
+            android:layout_marginRight="64dp"
+            android:paddingLeft="@dimen/textfield_spacing_v"
+            android:paddingRight="@dimen/textfield_spacing_v"
+            android:paddingTop="@dimen/textfield_spacing_h"
+            android:paddingBottom="@dimen/textfield_spacing_h"
+            android:background="@color/pistaccio"
+            android:inputType="textPersonName|textCapWords"/>
+
+        <Button
+            android:id="@+id/button_start"
+            android:text="@string/button_start"
+            style="@style/lime_button"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="center_horizontal"
+            android:onClick="starter"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

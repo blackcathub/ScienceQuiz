@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" >
+        <item name="android:colorAccent">@color/pine_tree</item>
+        <item name="colorAccent">@color/pine_tree</item>
+        <item name="colorPrimaryDark">@color/lime_slice</item>
+        <item name="android:navigationBarColor">@color/lime_slice</item>
+        <item name="android:windowBackground">@color/spearmint_light</item>
+        <item name="android:colorBackground">@color/mint_cream</item>
+        <item name="colorPrimary">@color/mint_cream</item>
+        <item name="android:textColorPrimary">@color/charcoal</item>
+        <item name="android:statusBarColor">@color/lime_slice</item>
+        <item name="android:keyBackground">@color/lucid_lime_slice</item>
+        <item name="android:keyTextColor">@color/pine_tree</item>
+    </style>
+
+    <!-- Text type styles. -->
+    <style name="header_bold">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">@color/pine_tree</item>
+        <item name="android:shadowDx">4</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">6</item>
+    </style>
+
+    <style name="text_body">
+        <item name="android:textSize">17sp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:shadowColor">@color/lucid_charcoal</item>
+        <item name="android:shadowDx">2</item>
+        <item name="android:shadowDy">2</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="text_question">
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <!-- Object format styles. -->
+    <style name="divider_line_h">
+        <item name="android:src">@color/pistaccio</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
+
+    <style name="cardview_styler">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/cardview_side_corrector</item>
+        <item name="android:layout_marginRight">@dimen/cardview_side_corrector</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="cardBackgroundColor">@color/spearmint</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+    </style>
+
+    <!-- Button/checkbox styles -->
+    <style name="lime_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingLeft">32dp</item>
+        <item name="android:paddingRight">32dp</item>
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:backgroundTint">@color/lime_slice</item>
+        <item name="android:elevation">4dp</item>
+        <item name="android:textColor">@color/pine_tree</item>
+    </style>
+
+    <style name="radio_styler">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:textColor">@color/charcoal</item>
+        <item name="android:buttonTint">@color/lime_slice</item>
+    </style>
+
+</resources>

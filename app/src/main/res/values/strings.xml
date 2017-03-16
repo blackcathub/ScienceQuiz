@@ -1,0 +1,78 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Science Quiz</string>
+
+    <!-- Launcher screen strings -->
+    <string name="tip_enter_name">Write your name</string>
+    <string name="button_start">Start Quiz</string>
+
+    <!-- Quiz-Main screen strings -->
+    <string name="header_hello">Hello <xliff:g id="name">%s</xliff:g></string>
+    <string name="message_intro">Answer the following 10 questions and check how you did in comparison with a nationally representative group of 3,278 randomly selected U.S. adults who did the same quiz.</string>
+    <string name="message_ending">Press [CHECK] button to see how you did then [RESULTS] button for details on your score</string>
+    <string name="message_toast"><xliff:g id="score">%s</xliff:g> out of 10 questions were correct\nRed question box indicate a mistake</string>
+    <string name="button_check">Check</string>
+    <string name="button_result">Results</string>
+
+    <!-- Results screen strings -->
+    <string name="header_congrats">Congratulations!\n<xliff:g id="name">%s</xliff:g></string>
+    <string name="message_score">You answered correctly to <xliff:g id="score">%s</xliff:g> of 10 questions.</string>
+    <string name="message_graph">See below how your results compare with the 3,278 randomly sampled adults that also answered to the same questions during a national survey in the U.S.</string>
+    <string name="button_return">Return</string>
+    <string name="button_send">Send</string>
+
+    <!-- SendTo strings -->
+    <string name="sendto_subject">Science Quiz results for <xliff:g id="name">%s</xliff:g></string>
+    <string name="sendto_body">Congratulations <xliff:g id="name">%s</xliff:g>\nYou managed to answer correctly to <xliff:g id="score">%s</xliff:g> out of 10 quiz questions.\nWe are happy you took our quiz - SQ Team</string>
+
+    <!-- Questions / Answers -->
+    <string name="txt_q1">1.	This picture shows an object in space that has an icy core with a tail of gas and dust that extends millions of miles. What is this?</string>
+    <string name="txt_q1_a">A star</string>
+    <string name="txt_q1_b">A comet</string>
+    <string name="txt_q1_c">An asteroid</string>
+    <string name="txt_q1_d">A moon</string>
+    <string name="txt_q2">2.	What kind of waves are used to make and receive cellphone calls?</string>
+    <string name="txt_q2_a">Radio waves</string>
+    <string name="txt_q2_b">Light waves</string>
+    <string name="txt_q2_c">Sound waves</string>
+    <string name="txt_q2_d">Gravity waves</string>
+    <string name="txt_q3">3.	This picture shows three layers of the Earth. Which layer is the hottest?</string>
+    <string name="txt_q3_a">Outer layer – Earth’s crust</string>
+    <string name="txt_q3_b">Middle layer – Earth’s mantle</string>
+    <string name="txt_q3_c">Inner layer – Earth’s core</string>
+    <string name="txt_q3_d">All are the same</string>
+    <string name="txt_q4">4.	Which of these is the main way that ocean tides are created?</string>
+    <string name="txt_q4_a">Rotation of the Earth on its axis</string>
+    <string name="txt_q4_b">Large ships sailing on the surface</string>
+    <string name="txt_q4_c">The gravitational pull of the Moon</string>
+    <string name="txt_q4_d">The gravitational pull of the Sun</string>
+    <string name="txt_q5">5.	What does a light-year measure?</string>
+    <string name="txt_q5_a">Brightness</string>
+    <string name="txt_q5_b">Time</string>
+    <string name="txt_q5_c">Size</string>
+    <string name="txt_q5_d">Distance</string>
+    <string name="txt_q6">6.	Madrid (Spain) is located 670m above sea level, Venice (Italy) just 1m above sea level. Which of these statements is correct?</string>
+    <string name="txt_q6_a">Water boils at lower temperature in Madrid than in Venice</string>
+    <string name="txt_q6_b">Water boils at higher temperature in Madrid than in Venice</string>
+    <string name="txt_q6_c">Water boils at exactly 100*C everywhere</string>
+    <string name="txt_q6_d">Water does not boil in Venice</string>
+    <string name="txt_q7">7.	Which of these pictures best illustrates what happens when light passes through a magnifying glass?</string>
+    <string name="txt_q7_a"> -1-</string>
+    <string name="txt_q7_b"> -2-</string>
+    <string name="txt_q7_c"> -3-</string>
+    <string name="txt_q7_d"> -4-</string>
+    <string name="txt_q8">8.	What unit is used to describe sound pressure level in acoustics as well as power to amplitude ratio (gain) in electronics?</string>
+    <string name="txt_q8_a">Watt (W)</string>
+    <string name="txt_q8_b">Decibel (dB)</string>
+    <string name="txt_q8_c">Volt (V)</string>
+    <string name="txt_q8_d">Hertz (Hz)</string>
+    <string name="txt_q9">9.	Which of the following are not formal scientific disciplines? (multiple answers can be correct)</string>
+    <string name="txt_q9_a">Astrology</string>
+    <string name="txt_q9_b">Astronomy</string>
+    <string name="txt_q9_c">Scientology</string>
+    <string name="txt_q9_d">Sociology</string>
+    <string name="txt_q10">10.	Which of these elements can be used to make nuclear energy and nuclear weapons? (multiple answers can be correct)</string>
+    <string name="txt_q10_a">Nitrogen</string>
+    <string name="txt_q10_b">Aluminum</string>
+    <string name="txt_q10_c">Uranium</string>
+    <string name="txt_q10_d">Plutonium</string>
+</resources>

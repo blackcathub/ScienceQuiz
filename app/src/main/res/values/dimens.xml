@@ -1,0 +1,40 @@
+<resources>
+
+<!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="material_margin">16dp</dimen>
+
+<!-- Launcher Screen dimens -->
+    <dimen name="textfield_fontsize">26sp</dimen>
+    <dimen name="textfield_spacing_v">16dp</dimen>
+    <dimen name="textfield_spacing_h">8dp</dimen>
+
+<!-- Main Quiz Screen dimens -->
+    <!-- Appbar sizes -->
+    <dimen name="appbar_height">70dp</dimen>
+    <dimen name="logo_bottom_offset">8dp</dimen>
+    <dimen name="icon_bottom_offset">12dp</dimen>
+    <dimen name="icon_drop">4dp</dimen>
+    <!-- Scroll area main sizes -->
+    <dimen name="area_top_offset">60dp</dimen>
+    <dimen name="header_spacing_v">8dp</dimen>
+    <dimen name="cardview_side_corrector">2dp</dimen>
+    <!-- Button field sizes -->
+    <dimen name="button_field_upkick">24dp</dimen>
+    <dimen name="button_separator_space">8dp</dimen>
+    <dimen name="mbutton_corrector_spacing">43dp</dimen>
+
+<!-- Result Screenn dimens -->
+    <dimen name="label_fontsize">18sp</dimen>
+    <dimen name="label_spacing">8dp</dimen>
+    <dimen name="graph_spacing">8dp</dimen>
+
+<!-- Toast Layout dimens -->
+    <dimen name="toast_absolute_height">80dp</dimen>
+    <dimen name="toast_offset">4dp</dimen>
+    <dimen name="toast_elevation">2dp</dimen>
+    <dimen name="toast_radius">24dp</dimen>
+    <dimen name="toast_message_fontsize">18sp</dimen>
+
+</resources>

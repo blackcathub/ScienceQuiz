@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.cat.black.sciencequiz.ResultScreen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint_cream">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/area_top_offset">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/material_margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header_gratz"
+            android:text="@string/header_congrats"
+            style="@style/header_bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:src="@color/lime_slice"
+            style="@style/divider_line_h"/>
+
+        <TextView
+            android:id="@+id/score_label"
+            android:text="@string/message_score"
+            android:textSize="@dimen/label_fontsize"
+            android:background="@color/spearmint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/label_spacing"
+            android:shadowColor="@color/lime_slice"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+
+        <ImageView
+            android:src="@color/lime_slice"
+            style="@style/divider_line_h"/>
+
+        <TextView
+            android:text="@string/message_graph"
+            style="@style/text_body"/>
+
+        <android.support.v7.widget.CardView
+            style="@style/cardview_styler">
+
+            <ImageView
+                android:id="@+id/img_graph"
+                android:src="@drawable/r_blanc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/graph_spacing"
+                android:adjustViewBounds="true"/>
+
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/button_field_upkick"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_return"
+                android:text="@string/button_return"
+                android:layout_marginRight="@dimen/button_separator_space"
+                style="@style/lime_button"
+                android:onClick="pressReturn"/>
+
+            <Button
+                android:id="@+id/button_send"
+                android:text="@string/button_send"
+                android:paddingLeft="@dimen/mbutton_corrector_spacing"
+                android:paddingRight="@dimen/mbutton_corrector_spacing"
+                style="@style/lime_button"
+                android:onClick="pressSend"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/topbar_group2"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/appbar_height">
+
+        <ImageView
+            android:src="@drawable/topbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:id="@+id/tsign2"
+            android:src="@drawable/topbar_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/logo_bottom_offset"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="true"/>
+
+        <ImageView
+            android:src="@drawable/topbar_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/icon_drop"
+            android:layout_marginBottom="@dimen/icon_bottom_offset"
+            android:layout_toLeftOf="@id/tsign2"
+            android:adjustViewBounds="true"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_toast_container"
+    android:layout_width="match_parent"
+    android:layout_height="80dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toast_absolute_height"
+        android:layout_margin="@dimen/toast_offset"
+        card_view:cardBackgroundColor="@color/lucid_lime_slice"
+        card_view:cardElevation="@dimen/toast_elevation"
+        card_view:cardCornerRadius="@dimen/toast_radius">
+
+        <TextView
+            android:id="@+id/toast_txt"
+            android:text="Oops! I'm a message but have no message.\nCheck your message and get me a message!"
+            android:textSize="@dimen/toast_message_fontsize"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/spearmint_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
