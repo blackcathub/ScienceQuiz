@@ -20,3 +20,8 @@ As mentioned back presses were overridden to always take the user back to the pl
 <img src="https://img.youtube.com/vi/LqV_0GU0DxE/0.jpg" width="320" height="240">
 </a>
 
+
+* **_SCREENSHOTS_**
+
+<img src="https://cloud.githubusercontent.com/assets/25821037/24006819/17e885ec-0a6d-11e7-9c26-9c59cb40c07a.jpg" align="center" height="420" > <img src="https://cloud.githubusercontent.com/assets/25821037/24006826/1cce6d06-0a6d-11e7-8d8f-47b40eb6daa2.jpg" align="center" height="420" > <img src="https://cloud.githubusercontent.com/assets/25821037/24006829/2116ca48-0a6d-11e7-86cd-bf41bc1d7643.jpg" align="center" height="420" >
+<img src="https://cloud.githubusercontent.com/assets/25821037/24006837/2526e636-0a6d-11e7-97cd-455839ebde1c.jpg" align="center" width="420" >
