@@ -14,3 +14,9 @@ For a good user experience I mainly focused on performance of the quiz screen th
 * **_LOGIC BEHIND THE SCENES_**
 
 As mentioned back presses were overridden to always take the user back to the place he logically should return to. Not to complicate the code too much the only values passed between the activities are user name and final score, I used Intent Extras to do that. Most of the calculations in reference to counting users score are done after clicking CHECK button. Single choice questions are checked by analysing the correct answer field, multi-choice answers use a complete 4-answer true/false key. All radio buttons and checkboxes get clickable=false attribute after the check is done. RESULT button gets unlocked and a Toast message is shown preceded by a .cancel method run if old one is still on the screen to prevent length stacking. On result screen a simple if checker is used to set statistics image according to the score variable and a SEND button is placed to put name and score in an automatically generated email.
+
+* **_DEMO VIDEO_**
+<a href="https://www.youtube.com/watch?v=LqV_0GU0DxE">
+<img src="https://img.youtube.com/vi/LqV_0GU0DxE/0.jpg" width="320" height="240">
+</a>
+
