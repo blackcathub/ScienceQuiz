@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="button_start">Rozpocznij</string>
+    <string name="header_congrats">Gratulacje!\n<xliff:g id="name">%s</xliff:g></string>
+    <string name="header_hello">Witaj <xliff:g id="name">%s</xliff:g></string>
+    <string name="message_ending">Wciśnij [CHECK] aby sprawdzić jak Ci poszło a następnie [RESULTS] by poznać szczegóły Twojego wyniku</string>
+    <string name="message_graph">Sprawdź poniżej jak Twoje wyniki wypadają na tle 3,278 losowo przebadanych dorosłych którzy równiez odpowiadali na te pytania w trakcie ankiety przeprowadzonej w USA</string>
+    <string name="message_intro">Odpowiedz na poniższe 10 pytań i sprawdź jak Twój wynik wypada na tle reprezentatywnej grupy 3,278 losowo wybranych dorosłych z USA którzy również odpowiadali na te pytania.</string>
+    <string name="message_score">Odpowiedziałeś poprawnie na <xliff:g id="score">%s</xliff:g> z 10 pytań.</string>
+    <string name="message_toast"><xliff:g id="score">%s</xliff:g> z 10 odpowiedzi było poprawne\nCzerwone tło oznacza pomyłkę</string>
+    <string name="sendto_body">Gratulacje <xliff:g id="name">%s</xliff:g>\nOdpowiedziałeś poprawnie na <xliff:g id="score">%s</xliff:g> z 10 pytań.\nCieszymy się że wykonałeś nasz quiz - SQ Team</string>
+    <string name="sendto_subject">Science Quiz - wyniki dla <xliff:g id="name">%s</xliff:g></string>
+    <string name="tip_enter_name">Wpisz swoje imię</string>
+    <string name="txt_q1">1.\tTo zdjęcie pokazuje obiekt w kosmosie który posiada lodowy rdzeń i ogon gazów oraz pyłu o długości milionów kilometrów. Co to jest?</string>
+    <string name="txt_q10">10.\tKtóre z tych pierwiastków mogą zostać użyte przy produkcji energii jądrowej i broni masowego rażenia (nuklearnej) - zaznacz wszystkie poprawne</string>
+    <string name="txt_q10_a">Azot</string>
+    <string name="txt_q10_b">Aluminium</string>
+    <string name="txt_q10_c">Uran</string>
+    <string name="txt_q10_d">Pluton</string>
+    <string name="txt_q1_a">Gwiazda</string>
+    <string name="txt_q1_b">Kometa</string>
+    <string name="txt_q1_c">Asteroida</string>
+    <string name="txt_q1_d">Księżyc</string>
+    <string name="txt_q2">2.\tJakiego rodzaju fale wykorzystuje się do transmisji połączeń w telefonach komórkowych?</string>
+    <string name="txt_q2_a">Fale radiowe</string>
+    <string name="txt_q2_b">Fale świetlne</string>
+    <string name="txt_q2_c">Fale dźwiękowe</string>
+    <string name="txt_q2_d">Fale grawitacyjne</string>
+    <string name="txt_q3">3.\tTo zdjęcie pokazuje 3 warstwy obecne w Kuli Ziemskiej. Która warstwa jest najgorętsza?</string>
+    <string name="txt_q3_a">Skorupa ziemska (outer layer)</string>
+    <string name="txt_q3_b">Płaszcz ziemski  (middle layer)</string>
+    <string name="txt_q3_c">Jądro ziemi (inner layer)</string>
+    <string name="txt_q3_d">Wszystkie mają taką samą temperaturę</string>
+    <string name="txt_q4">4.\tKtóry z poniższych czynników jest ponosi największą odpowiedzialność za występowanie fal na oceanie?</string>
+    <string name="txt_q4_a">Ruch obrotowy ziemi</string>
+    <string name="txt_q4_b">Wielkie statki pływające po oceanach</string>
+    <string name="txt_q4_c">Przyciąganie grawitacyjne Księżyca</string>
+    <string name="txt_q4_d">Przyciąganie grawitacyjne Słońca</string>
+    <string name="txt_q5">5.\tCo mierzy się z użyciem lat świetlnych?</string>
+    <string name="txt_q5_a">Jasność</string>
+    <string name="txt_q5_b">Czas</string>
+    <string name="txt_q5_c">Rozmiar</string>
+    <string name="txt_q5_d">Odległość</string>
+    <string name="txt_q6">6.\tMadryt (Hiszpania) znajduje się 670m n.p.m., Wenecja (Włochy) tylko 1m n.p.m. Które z poniższych zdań jest prawdziwe?</string>
+    <string name="txt_q6_a">Woda gotuje się w niższej temperaturze w Madrycie niż w Wenecji</string>
+    <string name="txt_q6_b">Woda gotuje się w wyższej temperaturze w Madrucie niż w Wenecji</string>
+    <string name="txt_q6_c">Woda wszędzie gotuje się w temperaturze 100*C</string>
+    <string name="txt_q6_d">W Wenecji woda tak na prawdę sie nie gotuje</string>
+    <string name="txt_q7">7.\tKtóry z tych rysunków najlepiej ilustruje co dzieje się ze światłem przechodzącym przez szkło powiększające?</string>
+    <string name="txt_q8">8.\tJaka jednostka miary jest używana do opisywania ciśnienia akustycznego dźwięku w akustyce jak również stosunku amplitudy do mocy (wzmocnienia) sygnału w elektronice?</string>
+    <string name="txt_q8_a">Wat (W)</string>
+    <string name="txt_q8_b">Decybel (dB)</string>
+    <string name="txt_q8_c">Volt (V)</string>
+    <string name="txt_q8_d">Herc (Hz)</string>
+    <string name="txt_q9">9.\tKtóre z poniższych nie są uznawane za formalne dyscypliny naukowe? - zaznacz wszystkie poprawne</string>
+    <string name="txt_q9_a">Astrologia</string>
+    <string name="txt_q9_b">Astronomia</string>
+    <string name="txt_q9_c">Scientologia</string>
+    <string name="txt_q9_d">Socjologia</string>
+</resources>

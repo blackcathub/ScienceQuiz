@@ -1,5 +1,5 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">Science Quiz</string>
+    <string name="app_name" translatable="false">Science Quiz</string>
 
     <!-- Launcher screen strings -->
     <string name="tip_enter_name">Write your name</string>
@@ -10,15 +10,15 @@
     <string name="message_intro">Answer the following 10 questions and check how you did in comparison with a nationally representative group of 3,278 randomly selected U.S. adults who did the same quiz.</string>
     <string name="message_ending">Press [CHECK] button to see how you did then [RESULTS] button for details on your score</string>
     <string name="message_toast"><xliff:g id="score">%s</xliff:g> out of 10 questions were correct\nRed question box indicate a mistake</string>
-    <string name="button_check">Check</string>
-    <string name="button_result">Results</string>
+    <string name="button_check" translatable="false">Check</string>
+    <string name="button_result" translatable="false">Results</string>
 
     <!-- Results screen strings -->
     <string name="header_congrats">Congratulations!\n<xliff:g id="name">%s</xliff:g></string>
     <string name="message_score">You answered correctly to <xliff:g id="score">%s</xliff:g> of 10 questions.</string>
     <string name="message_graph">See below how your results compare with the 3,278 randomly sampled adults that also answered to the same questions during a national survey in the U.S.</string>
-    <string name="button_return">Return</string>
-    <string name="button_send">Send</string>
+    <string name="button_return" translatable="false">Return</string>
+    <string name="button_send" translatable="false">Send</string>
 
     <!-- SendTo strings -->
     <string name="sendto_subject">Science Quiz results for <xliff:g id="name">%s</xliff:g></string>
@@ -56,10 +56,10 @@
     <string name="txt_q6_c">Water boils at exactly 100*C everywhere</string>
     <string name="txt_q6_d">Water does not boil in Venice</string>
     <string name="txt_q7">7.	Which of these pictures best illustrates what happens when light passes through a magnifying glass?</string>
-    <string name="txt_q7_a"> -1-</string>
-    <string name="txt_q7_b"> -2-</string>
-    <string name="txt_q7_c"> -3-</string>
-    <string name="txt_q7_d"> -4-</string>
+    <string name="txt_q7_a" translatable="false"> -1-</string>
+    <string name="txt_q7_b" translatable="false"> -2-</string>
+    <string name="txt_q7_c" translatable="false"> -3-</string>
+    <string name="txt_q7_d" translatable="false"> -4-</string>
     <string name="txt_q8">8.	What unit is used to describe sound pressure level in acoustics as well as power to amplitude ratio (gain) in electronics?</string>
     <string name="txt_q8_a">Watt (W)</string>
     <string name="txt_q8_b">Decibel (dB)</string>
