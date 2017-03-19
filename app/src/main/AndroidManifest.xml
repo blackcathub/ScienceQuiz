@@ -9,7 +9,9 @@
         android:supportsRtl="false"
         android:hardwareAccelerated="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
@@ -17,11 +19,15 @@
         <activity android:name=".LauncherScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <!-- Launcher definition -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ResultScreen"></activity>
+        <activity android:name=".ResultScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
