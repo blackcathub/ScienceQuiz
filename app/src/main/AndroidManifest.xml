@@ -22,6 +22,17 @@
                 <!-- Launcher definition -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <intent-filter>
+                <!-- Deep links definition to github -->
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http"
+                    android:host="www.github.com"
+                    android:pathPrefix="/blackcathub/sciencequiz" />
+                <data android:scheme="github"
+                    android:host="blackcathub/sciencequiz" />
+            </intent-filter>
         </activity>
         <activity android:name=".ResultScreen">
             <intent-filter>
